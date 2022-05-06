@@ -1,0 +1,63 @@
+.features{
+    padding-top: 180px;
+    background-image: url('../images/background8.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .5;
+
+    &__text{
+        padding: 0 1rem;
+    }
+
+    &__title{
+        font-size: $display-1;
+        line-height: 1.2;
+        font-weight: 400;
+        word-break: break-word;
+        word-wrap: break-word;
+    }
+
+    &__subtitle{
+        line-height: 1.6;
+        color: $text-sub;
+        font-size: $display-5;
+    }
+
+    &__filter{
+        opacity: 0.7;
+        background-color: rgb(255, 255, 255);
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 0;
+    }
+
+    &__items{
+        position: relative;
+        background-color: #f4f8fa;
+        width: 100%;
+        padding-bottom: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__item{
+        margin-top: -150px;
+        background-color: #ffffff;
+        box-shadow: #d2d2d2 0px 0px 15px;
+        border-radius: 3px;
+        margin-right: 1.5rem;
+        width: 29%;
+        padding: 2.5rem;
+        max-width: 400px;
+
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+
+}

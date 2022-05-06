@@ -1,0 +1,65 @@
+// NAVBAR
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: .5rem 1rem;
+    z-index: 1;
+}
+
+.navbar-brand{
+    font-size: $display-2;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    color: $text-primary;
+}
+
+.navbar-collapse{
+    margin-top: .25rem;
+}
+
+.nav-link{
+    padding: 0!important;
+    margin: .667em 1.667em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16px;
+    color: $text-primary;
+}
+
+.nav-socials{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+    text-align: center;
+    align-items: center;
+    font-weight: normal;
+}
+
+.socials-item{
+    margin: .5rem .3rem;
+}
+
+.socials-link{
+
+    color: rgb(68, 68, 68);
+    i{
+        width: 36px;
+        height: 36px;
+        padding: .5rem;
+        text-align: center;   
+        border: 2px solid;
+        font-size: 1rem;
+        border-radius: 50%; 
+    }
+}
+
+.dropdown-toggle::after{
+    margin-left: .25rem;
+    border-top: 0.35em solid;
+    border-right: 0.35em solid transparent;
+    border-left: 0.35em solid transparent;
+    border-bottom: 0;
+}
