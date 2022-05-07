@@ -4,7 +4,27 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .features{
+
+        &__subtitle{
+            padding-left: 2rem!important;
+            padding-right: 2rem!important;
+            margin-bottom: 4rem!important;
+        }
+
+        &__link{
+            text-align: center;
+        }
+    }
+}
+
 @media screen and (max-width: 768px) {
+
+    .navbar-brand{
+        font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
+    }
+
     .features{
 
         &__title{
@@ -20,6 +40,24 @@
             font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
             line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
         }
+
+        &__icon{
+            font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
+            i{
+                width: 21.5px;
+                height: 30px;
+            }
+        }
+
+        &__heading h3{
+            font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+        }
+
+        &__link{
+            a{
+                font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+            }
+        }
     }
 }
 
@@ -29,13 +67,27 @@
     }
 }
 
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
     .features{
 
-        &__subtitle{
-            padding-left: 2rem;
-            padding-right: 2rem;
+        &__items{
+            margin-top: -100px;
+        }
+
+        &__item{
+            margin-top: 0;
+            margin-right: 0;
+            width: 90%;
+            max-width: none;
+            margin-bottom: 4.15rem;
+        }
+
+        &__heading{
+            margin: 1.6rem 0;
+        }
+
+        &__desc p{
+            margin-bottom: 1rem;
         }
     }
 }
