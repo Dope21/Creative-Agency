@@ -22,6 +22,10 @@ body, *{
     font-family: $font-main;
 }
 
+.main{
+    position: relative;
+}
+
 a, ul, li{
     text-decoration: none;
     list-style: none;
@@ -30,7 +34,12 @@ a, ul, li{
     color: $text-primary
 }
 
+// .container{
+//     max-width: 1140px!important;
+// }
+
 @import "./navbar";
+@import "./features";
 @import "./break-point";
 
 

@@ -1,0 +1,107 @@
+.features{
+
+    padding-top: 180px;
+    position: relative;
+    background-image: url("../images/background8.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+
+    &__filter{
+        opacity: 0.7;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    &__heading{
+        position: relative;
+        text-align: center;
+        max-width: 910px;
+        margin-bottom: 15%;
+
+        h2{
+            font-size: $text-size-1;
+            font-weight: normal;
+            line-height: 1.2;
+        }
+
+        p{
+            font-size: $text-size-5;
+            line-height: 1.6;
+            color: $text-sub;
+        }
+
+    }
+
+    &__items{
+        position: relative;
+        background-color: #f4f8fa;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 90px;
+    }
+
+    &__item{
+        max-width: 400px;
+        background-color: #ffffff;
+        margin-top: -115px;
+        position: relative;
+        padding: 2.5rem;
+    }
+
+    &__icon{
+        position: absolute;
+        top: 0;
+        margin-top: -2.5rem;
+        background: $color-main;
+        color: $text-alter;
+        font-size: $text-size-2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 1.5rem;
+        border-radius: 50%;
+
+        i{
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    &__items:last-child{
+        margin-right: 0;
+    }
+
+    &__title{
+        padding-top: 1.5rem;
+        font-size: $text-size-5;
+        font-weight: normal;
+        padding-bottom: 1rem;
+    }
+
+    &__desc{
+        color: $text-sub;
+    }
+
+    &__link{
+        i{
+            padding-left: .3rem;
+            transition: all .3s;
+        }
+
+        a{
+            color: $color-main;
+            padding: .5rem;
+            &:hover i{
+                padding-left: .5rem;
+            }
+        }
+
+    }
+
+}
