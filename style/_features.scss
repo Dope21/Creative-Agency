@@ -24,13 +24,12 @@
         margin-bottom: 15%;
 
         h2{
-            font-size: $text-size-1;
             font-weight: normal;
             line-height: 1.2;
         }
 
         p{
-            font-size: $text-size-5;
+            font-size: 1.2rem;
             line-height: 1.6;
             color: $text-sub;
         }
@@ -43,10 +42,12 @@
         justify-content: center;
         align-items: center;
         padding-bottom: 90px;
+        gap: 1.5rem;
     }
 
     &__item{
         max-width: 400px;
+        width: 29%;
         background-color: #ffffff;
         margin-top: -115px;
         position: relative;
@@ -59,7 +60,6 @@
         margin-top: -2.5rem;
         background: $color-main;
         color: $text-alter;
-        font-size: $text-size-2;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -73,13 +73,8 @@
         }
     }
 
-    &__items:last-child{
-        margin-right: 0;
-    }
-
     &__title{
         padding-top: 1.5rem;
-        font-size: $text-size-5;
         font-weight: normal;
         padding-bottom: 1rem;
     }

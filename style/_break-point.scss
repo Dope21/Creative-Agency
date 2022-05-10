@@ -1,15 +1,32 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1199px) {
+    
+}
+@media screen and (max-width: 991px) {
+    .features{
 
+        &__heading{
+            padding: 0 2.8rem;
+
+            p{
+                font-size: 1.1rem;
+            }
+        }
+
+        &__items{
+            gap: 0;
+        }
+
+        &__item{
+            max-width: 90%;
+            width: auto;
+            margin-top: 0px;
+            margin-bottom: 70px;
+        }
+    }
 }
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 767px) {
+  
 }
-@media screen and (max-width: 992px) {
-    
-}
-@media screen and (max-width: 1200px) {
-    
-}
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 575px) {
 
 }
