@@ -206,6 +206,72 @@ a, ul, li {
   opacity: 1;
 }
 
+.services {
+  padding-bottom: 90px;
+  background: #f4f8fa;
+}
+
+.services__title {
+  text-align: center;
+}
+
+.services__title h3 {
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.services__title p {
+  color: #8d97ad;
+}
+
+.services .col-md-6 {
+  margin-bottom: 2rem;
+}
+
+.services__item {
+  padding: 2.5rem 1rem;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+          box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  text-align: center;
+  cursor: pointer;
+  -webkit-transform: none;
+          transform: none;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.services__icon {
+  padding-bottom: 1rem;
+}
+
+.services__icon i {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  color: #1dc9cb;
+  font-size: 50px;
+}
+
+.services__desc {
+  color: black;
+  font-size: 1rem;
+  font-weight: normal;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.services__item:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#5eeebb), to(#51aafa));
+  background: linear-gradient(90deg, #5eeebb, #51aafa);
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.services__item:hover h4, .services__item:hover i {
+  color: #FFFFFF;
+}
+
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1140px;
