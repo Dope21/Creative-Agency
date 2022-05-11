@@ -20,10 +20,6 @@ a, ul, li {
   color: #444444;
 }
 
-.container {
-  max-width: 1140px !important;
-}
-
 .navbar {
   z-index: 99999;
   top: 0;
@@ -115,7 +111,7 @@ a, ul, li {
   max-width: 400px;
   width: 29%;
   background-color: #ffffff;
-  margin-top: -120px;
+  margin-top: -90px;
   position: relative;
   padding: 2.5rem;
 }
@@ -170,6 +166,52 @@ a, ul, li {
   padding-left: .5rem;
 }
 
+.about {
+  padding-bottom: 90px;
+  background: #f4f8fa;
+}
+
+.about__details h3 {
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.about__details p {
+  color: #8d97ad;
+}
+
+.about__list li {
+  margin-bottom: 1rem;
+}
+
+.about__list i {
+  color: #188ef4;
+  margin: 4px 10px;
+}
+
+.about__btn i {
+  position: relative;
+  opacity: 0;
+  font-size: inherit;
+  text-align: center;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  margin-left: -1.5rem;
+  padding-left: .5rem;
+}
+
+.about__btn a:hover i {
+  margin-left: 5px;
+  padding-left: 0;
+  opacity: 1;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .features__items {
     gap: 0;
@@ -186,6 +228,9 @@ a, ul, li {
 }
 
 @media screen and (max-width: 768px) {
+  .features__heading {
+    padding: 0 2.1rem;
+  }
   .features__heading h2 {
     font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
   }
@@ -195,14 +240,17 @@ a, ul, li {
   .features__link {
     text-align: center;
   }
+  .features__item:first-child {
+    margin-top: -20px;
+  }
+  .about__details {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 575px) {
   .features__heading {
     padding: 0 2.1rem;
-  }
-  .features__item:first-child {
-    margin-top: -20px;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -8,12 +8,12 @@ $color-bg: #f4f8fa;
 $text-primary: #444444;
 $text-sub: #8d97ad;
 $text-alter: #FFFFFF;
-$text-size-1: 3rem;
-$text-size-2: 1.8rem;
-$text-size-3: 1.6rem;
-$text-size-4: 1.4rem;
-$text-size-5: 1.2rem;
-$text-size-6: 1rem;
+// $text-size-1: 3rem;
+// $text-size-2: 1.8rem;
+// $text-size-3: 1.6rem;
+// $text-size-4: 1.4rem;
+// $text-size-5: 1.2rem;
+// $text-size-6: 1rem;
 
 // SET UP
 body, *{
@@ -36,12 +36,9 @@ a, ul, li{
     color: $text-primary
 }
 
-.container{
-    max-width: 1140px!important;
-}
-
 @import "./navbar";
 @import "./features";
+@import "./about";
 @import "./break-point";
 
 
