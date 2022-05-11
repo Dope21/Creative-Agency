@@ -4,6 +4,7 @@
 // VARIABLES
 $font-main: 'Montserrat', sans-serif;
 $color-main: #188ef4;
+$color-bg: #f4f8fa;
 $text-primary: #444444;
 $text-sub: #8d97ad;
 $text-alter: #FFFFFF;
@@ -24,6 +25,7 @@ body, *{
 
 .main{
     position: relative;
+    overflow-x: hidden;
 }
 
 a, ul, li{
@@ -34,9 +36,9 @@ a, ul, li{
     color: $text-primary
 }
 
-// .container{
-//     max-width: 1140px!important;
-// }
+.container{
+    max-width: 1140px!important;
+}
 
 @import "./navbar";
 @import "./features";
