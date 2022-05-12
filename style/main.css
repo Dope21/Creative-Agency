@@ -314,6 +314,50 @@ a, ul, li {
   color: #8d97ad;
 }
 
+.achiev {
+  padding-bottom: 90px;
+  background: #f4f8fa;
+}
+
+.achiev__title {
+  text-align: center;
+}
+
+.achiev__title h3 {
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.achiev__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
+}
+
+.achiev__icon {
+  color: #188ef4;
+  font-size: 3.125rem;
+  padding-right: 1rem;
+}
+
+.achiev__number {
+  font-weight: 400;
+}
+
+.achiev__desc {
+  font-size: 1.2rem;
+  color: #8d97ad;
+  font-weight: normal;
+  max-width: 100px;
+}
+
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1140px;
