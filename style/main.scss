@@ -9,7 +9,7 @@ $color-bg: #f4f8fa;
 $color-gradient: linear-gradient(90deg, #5eeebb, #51aafa);
 $text-primary: #444444;
 $text-sub: #8d97ad;
-$text-alter: #FFFFFF;
+$text-alter: #FFFFFF; 
 
 // SET UP
 body, *{
@@ -36,6 +36,7 @@ a, ul, li{
 @import "./features";
 @import "./about";
 @import "./services";
+@import "./team";
 @import "./break-point";
 
 
