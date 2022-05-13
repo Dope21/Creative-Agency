@@ -1,0 +1,33 @@
+.partners{
+
+    padding: 90px 0;
+    background-image: url('../images/slide.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+
+    &__content{
+        position: relative;
+    }
+
+    &__title{
+        text-align: center;
+        h3{
+            font-weight: normal;
+            line-height: 1.2;
+            color: $text-alter;
+        }
+    }
+
+    &__filter{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+        background: $color-gradient;
+        opacity: .7;
+    }
+}
