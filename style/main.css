@@ -364,6 +364,7 @@ a, ul, li {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
 }
 
@@ -411,6 +412,9 @@ a, ul, li {
   }
   .features__item:first-child {
     margin-top: -90px;
+  }
+  .partners .colCloned {
+    display: none;
   }
 }
 
