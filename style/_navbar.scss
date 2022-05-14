@@ -1,6 +1,10 @@
 .navbar{
     z-index: 99999;
-    top: 0;
+    transition: all .3s;
+    
+    &__scroll{
+        background: #FFFFFF;
+    }
 
     &-brand{
         font-weight: 400;
