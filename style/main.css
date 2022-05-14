@@ -394,6 +394,74 @@ a, ul, li {
   opacity: .7;
 }
 
+.clients {
+  padding: 90px 0;
+  background: #f4f8fa;
+}
+
+.clients__box {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+          box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+
+.clients__title {
+  text-align: center;
+}
+
+.clients__title h3 {
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.clients__header {
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.clients__img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: -10px;
+}
+
+.clients__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.clients__name {
+  font-size: 1.2rem;
+  padding: .5rem 1rem .5rem 6.5rem;
+  margin-left: -1.5rem;
+  margin-bottom: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#5eeebb), to(#51aafa));
+  background: linear-gradient(90deg, #5eeebb, #51aafa);
+  border-top-right-radius: .25rem;
+  border-bottom-right-radius: .25rem;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+.clients__comment {
+  color: #8d97ad;
+}
+
+.clients__underline {
+  background: #e8eaf1;
+  height: .5px;
+  width: 25%;
+}
+
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1140px;
