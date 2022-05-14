@@ -82,6 +82,27 @@
             text-align: center;
         }
     }
+
+    .footer{
+
+        &__img{
+            margin-bottom: 1rem;
+            padding-bottom: 2rem;
+            text-align: center;
+        }
+
+        &__items{
+
+            h5{
+                text-align: center;
+            }
+
+            p, ul{
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 575px) {
