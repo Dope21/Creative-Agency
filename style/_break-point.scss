@@ -6,6 +6,10 @@
 
 @media screen and (max-width: 991px) {
 
+    .navbar{
+        background: #FFFF;
+    }
+
     .features{
 
         &__items{
@@ -36,6 +40,8 @@
 @media screen and (max-width: 767px) {
 
     .features{
+
+        padding-top: 140px;
 
         &__heading{
             padding: 0 2.1rem;
@@ -98,16 +104,4 @@
             }
         }
     }
-}
-
-@media screen and (max-width: 575px) {
-
-    .features{
-
-        &__heading{
-            padding: 0 2.1rem;
-        }  
-    }
-
-    
 }

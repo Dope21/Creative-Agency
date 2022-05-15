@@ -519,6 +519,9 @@ a, ul, li {
 }
 
 @media screen and (max-width: 991px) {
+  .navbar {
+    background: #FFFF;
+  }
   .features__items {
     gap: 0;
   }
@@ -537,6 +540,9 @@ a, ul, li {
 }
 
 @media screen and (max-width: 767px) {
+  .features {
+    padding-top: 140px;
+  }
   .features__heading {
     padding: 0 2.1rem;
   }
@@ -569,12 +575,6 @@ a, ul, li {
   .footer__items p, .footer__items ul {
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-}
-
-@media screen and (max-width: 575px) {
-  .features__heading {
-    padding: 0 2.1rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
