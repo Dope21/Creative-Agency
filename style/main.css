@@ -10,6 +10,21 @@ body, * {
 .main {
   position: relative;
   overflow-x: hidden;
+  background: #f4f8fa;
+  z-index: 0;
+}
+
+section {
+  padding-bottom: 90px;
+}
+
+h2, h3, h4, h5 {
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+h3, h2 {
+  text-align: center;
 }
 
 a, ul, li {
@@ -94,11 +109,6 @@ a, ul, li {
   padding: 0 7rem;
 }
 
-.features__heading h2 {
-  font-weight: normal;
-  line-height: 1.2;
-}
-
 .features__heading p {
   font-size: 1.2rem;
   line-height: 1.6;
@@ -137,7 +147,6 @@ a, ul, li {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  padding: 1.5rem;
   border-radius: 50%;
 }
 
@@ -147,9 +156,7 @@ a, ul, li {
 }
 
 .features__title {
-  padding-top: 1.5rem;
   font-weight: normal;
-  padding-bottom: 1rem;
 }
 
 .features__desc {
@@ -169,16 +176,6 @@ a, ul, li {
 
 .features__link a:hover i {
   padding-left: .5rem;
-}
-
-.about {
-  padding-bottom: 90px;
-  background: #f4f8fa;
-}
-
-.about__details h3 {
-  font-weight: normal;
-  line-height: 1.2;
 }
 
 .about__details p {
@@ -209,20 +206,6 @@ a, ul, li {
   margin-left: 5px;
   padding-left: 0;
   opacity: 1;
-}
-
-.services {
-  padding-bottom: 90px;
-  background: #f4f8fa;
-}
-
-.services__title {
-  text-align: center;
-}
-
-.services__title h3 {
-  font-weight: normal;
-  line-height: 1.2;
 }
 
 .services__title p {
@@ -277,20 +260,6 @@ a, ul, li {
   color: #FFFFFF;
 }
 
-.team {
-  padding-bottom: 90px;
-  background: #f4f8fa;
-}
-
-.team__title {
-  text-align: center;
-}
-
-.team__title h3 {
-  font-weight: normal;
-  line-height: 1.2;
-}
-
 .team .card {
   border: none;
   background: none;
@@ -317,20 +286,6 @@ a, ul, li {
 .team .card-text {
   margin: 1.5rem 0;
   color: #8d97ad;
-}
-
-.achiev {
-  padding-bottom: 90px;
-  background: #f4f8fa;
-}
-
-.achiev__title {
-  text-align: center;
-}
-
-.achiev__title h3 {
-  font-weight: normal;
-  line-height: 1.2;
 }
 
 .achiev__item {
@@ -364,7 +319,7 @@ a, ul, li {
 }
 
 .partners {
-  padding: 90px 0;
+  padding-top: 90px;
   background-image: url("../images/slide.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -375,16 +330,6 @@ a, ul, li {
 
 .partners__content {
   position: relative;
-}
-
-.partners__title {
-  text-align: center;
-}
-
-.partners__title h3 {
-  font-weight: normal;
-  line-height: 1.2;
-  color: #FFFFFF;
 }
 
 .partners__filter {
@@ -400,23 +345,13 @@ a, ul, li {
 }
 
 .clients {
-  padding: 90px 0;
-  background: #f4f8fa;
+  padding-top: 90px;
 }
 
 .clients__box {
   background: #ffffff;
   -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
           box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
-}
-
-.clients__title {
-  text-align: center;
-}
-
-.clients__title h3 {
-  font-weight: normal;
-  line-height: 1.2;
 }
 
 .clients__header {
@@ -479,14 +414,6 @@ a, ul, li {
   height: 100%;
 }
 
-.contact {
-  padding-bottom: 90px;
-}
-
-.contact > .container {
-  background: #f4f8fa;
-}
-
 .contact__wrapper {
   border-radius: 5px;
   background: #FFFF;
@@ -496,22 +423,12 @@ a, ul, li {
   margin-top: -10rem;
 }
 
-.contact__title {
-  font-weight: normal;
-  line-height: 1.2;
-}
-
 .contact__info {
   background: -webkit-gradient(linear, left top, right top, from(#5eeebb), to(#51aafa));
   background: linear-gradient(90deg, #5eeebb, #51aafa);
   padding: 2rem;
   color: #FFFFFF;
   height: 100%;
-}
-
-.contact__info h4 {
-  font-size: 1.2rem;
-  font-weight: normal;
 }
 
 .contact__social {
@@ -591,11 +508,6 @@ a, ul, li {
   z-index: 1;
 }
 
-.footer__items h5 {
-  font-size: 1.2rem;
-  font-weight: normal;
-}
-
 .footer__items i {
   margin-right: 5px;
 }
@@ -624,7 +536,7 @@ a, ul, li {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .features__heading {
     padding: 0 2.1rem;
   }
@@ -643,9 +555,6 @@ a, ul, li {
   .about__details {
     text-align: center;
   }
-}
-
-@media screen and (max-width: 767px) {
   .team .card {
     text-align: center;
   }

@@ -22,11 +22,6 @@
         margin-bottom: 17%;
         padding: 0 7rem;
 
-        h2{
-            font-weight: normal;
-            line-height: 1.2;
-        }
-
         p{
             font-size: 1.2rem;
             line-height: 1.6;
@@ -61,7 +56,6 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        padding: 1.5rem;
         border-radius: 50%;
 
         i{
@@ -71,9 +65,7 @@
     }
 
     &__title{
-        padding-top: 1.5rem;
         font-weight: normal;
-        padding-bottom: 1rem;
     }
 
     &__desc{

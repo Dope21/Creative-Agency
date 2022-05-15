@@ -1,9 +1,4 @@
 .contact{
-    padding-bottom: 90px;
-
-    & > .container{
-        background: $color-bg;
-    }
 
     &__wrapper{
         border-radius: 5px;
@@ -13,21 +8,11 @@
         margin-top: -10rem;
     }
 
-    &__title{
-        font-weight: normal;
-        line-height: 1.2;
-    }
-
     &__info{
         background: $color-gradient;
         padding: 2rem;
         color: $text-alter;
         height: 100%;
-
-        h4{
-            font-size: 1.2rem;
-            font-weight: normal;
-        }
     }
 
     &__social{

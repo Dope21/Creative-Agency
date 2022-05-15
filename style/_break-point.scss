@@ -3,9 +3,7 @@
         max-width: 1140px;
     }
 }
-@media screen and (max-width: 1199px) {
-    
-}
+
 @media screen and (max-width: 991px) {
 
     .features{
@@ -34,7 +32,8 @@
         }
     }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 767px) {
 
     .features{
 
@@ -70,10 +69,6 @@
             text-align: center;
         }
     }
-  
-}
-
-@media screen and (max-width: 767px) {
     
     .team{
 
