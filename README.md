@@ -2,7 +2,7 @@
 
 Bootstrap template with a responsive design.
 
-## Demo [https://thanasak-demo-creative-agency.netlify.app](https://thanasak-demo-creative-agency.netlify.app)
+## Live Demo [https://thanasak-demo-creative-agency.netlify.app](https://thanasak-demo-creative-agency.netlify.app)
 
 ## Stack
 
@@ -24,7 +24,3 @@ Bootstrap template with a responsive design.
 ![Hero-Section](design/2.png)
 ![Mixing-Section](design/3.png)
 ![Responsive](design/4.png)
-
-## Live Demo
-
-Not available now.
