@@ -2,7 +2,7 @@
 
 Bootstrap template with a responsive design.
 
-## Live Demo [https://thanasak-demo-creative-agency.netlify.app](https://thanasak-demo-creative-agency.netlify.app)
+## [Live Demo](https://thanasak-demo-creative-agency.netlify.app)
 
 ## Stack
 
